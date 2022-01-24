@@ -928,7 +928,7 @@ ${numberik} ${prefix}mama_gina
 ${numberik} ${prefix}alcakenya 
 ${numberik} ${prefix}mangayutri
 
- *Anime  Menu*
+ *Anime menyusu*
 ${numberik} ${prefix}anna
 ${numberik} ${prefix}asuna_yuki 
 ${numberik} ${prefix}ayuzawa 
@@ -958,12 +958,12 @@ ${numberik} ${prefix}yuzuki
 ${numberik} ${prefix}akame
 ${numberik} ${prefix}mikosiba
 
-❏───「 *WHATSAPP BOT* 」───❏
+❏───「 *WhatsApp Bot* 」───❏
 `
 }
 
 const fun = (prefix) => {
-	return`┌❑  *FUN & GAME MENU* ❑
+	return`┌❑  *Əyləncəli oyun menyusu* ❑
 │
 ├❒ ${prefix}start
 ├❒ ${prefix}leave
@@ -1010,7 +1010,7 @@ const fun = (prefix) => {
 }
 
 const maker = (prefix) => {
-	return`┌❑  *MAKER MENU* ❑
+	return`┌❑  *MAKER menyu* ❑
 │
 ├❒ ${prefix}sticker
 ├❒ ${prefix}smeme [text]
@@ -1038,7 +1038,7 @@ const maker = (prefix) => {
 }
 
 const textpro = (prefix) => {
-	return`┌❑  *TEXTPRO MENU* ❑
+	return`┌❑  *Mətin Pro menyu* ❑
 │
 ├❒ ${prefix}halloween2 text|text2
 ├❒ ${prefix}horror text|text2
@@ -1224,7 +1224,7 @@ const textpro = (prefix) => {
 }
 
 const photooxy = (prefix) => {
-	return`┌❑  *PHOTOOXY MENU* ❑
+	return`┌❑  *Fotooksi menyu* ❑
 │
 ├❒ ${prefix}captain_as text|text2
 ├❒ ${prefix}smoke text|text2
@@ -1289,7 +1289,7 @@ const photooxy = (prefix) => {
 }
 
 const other = (prefix) => {
-	return`┌❑  *GROUP MENU* ❑
+	return`┌❑  *Qrup menyusu* ❑
 │
 ├❒ ${prefix}add 62xxx
 ├❒ ${prefix}kick 62xxx
@@ -1341,7 +1341,7 @@ const other = (prefix) => {
 }
 
 const ownermenu = (prefix) => {
-	return`┌❑  *OWNER MENU* ❑
+	return`┌❑  *Sahib menyusu* ❑
 │
 ├❒ ${prefix}setmenu location
 ├❒ ${prefix}setmenu document
@@ -1410,7 +1410,7 @@ Example :
 }
 
 const storage = (prefix) => {
-	return`┌❑  *STORAGE MENU* ❑
+	return`┌❑  *Saxlama menyusu* ❑
 │
 ├❒ ${prefix}addstik 
 ├❒ ${prefix}addimg 
@@ -1426,7 +1426,7 @@ const storage = (prefix) => {
 `
 }
 const cecanmenu = (prefix) => {
-	return`┌❑  *GACHA CECAN* ❑
+	return`┌❑  *Təxmin etməyi bacarmaq* ❑
 │
 ├❒ ${prefix}china
 ├❒ ${prefix}indonesia
@@ -1443,7 +1443,7 @@ const cecanmenu = (prefix) => {
 }
 
 const tag = (prefix) => {
-	return`┌❑  *TAG MENU* ❑
+	return`┌❑  *Etiket menyusu* ❑
 │
 ├❒ ${prefix}hidetag
 ├❒ ${prefix}kontag
@@ -1475,7 +1475,7 @@ const tag = (prefix) => {
 }
 
 const upmenu = (prefix) => {
-	return`┌❑  *UP ESWE* ❑
+	return`┌❑  *Yuxarı eswe* ❑
 │
 ├❒ ${prefix}upswteks
 ├❒ ${prefix}upswimage
@@ -1568,7 +1568,7 @@ const nsfw = (prefix) => {
 `
 }
 const asupan = (prefix) => {
-	return`┌❑  *ASUPAN MENU* ❑
+	return`┌❑  *Menyu qəbulu* ❑
 │
 ├❒ ${prefix}rikagusriani 
 ├❒ ${prefix}ukhty 
@@ -1594,7 +1594,7 @@ const asupan = (prefix) => {
 `
 }
 const telestiker = (prefix) => {
-	return`┌❑  *STICKERS MENU* ❑
+	return`┌❑  *Sticker menu* ❑
 │
 ├❒ ${prefix}awoawo
 ├❒ ${prefix}benedict
@@ -1620,7 +1620,7 @@ const telestiker = (prefix) => {
 `
 }
 const image_effect_menu = (prefix) => {
-	return`┌❑  *IMAGE EFFECT* ❑
+	return`┌❑  *Şəkil effecti* ❑
 │
 ├❒ ${prefix}trigger
 ├❒ ${prefix}gay
@@ -1694,7 +1694,7 @@ const coganmenu = (prefix) => {
 }
 
 const quotesmenu = (prefix) => {
-	return `┌❑ *QUOTES MENU* ❑
+	return `┌❑ *Sitatlar menyusu* ❑
 │
 ├❒ ${prefix}katailham  
 ├❒ ${prefix}dare   
@@ -1705,7 +1705,7 @@ const quotesmenu = (prefix) => {
 `
 }
 const shopmenu = (prefix) => {
-	return `┌❑ *SHOP MENU* ❑
+	return `┌❑ *Mağaza menyusu* ❑
 │
 ├❒ ${prefix}shop  
 ├❒ ${prefix}price  
@@ -1720,7 +1720,7 @@ const shopmenu = (prefix) => {
 `
 }
 const animemenu = (prefix) => {
-	return`┌❑ *ANIME MENU* ❑
+	return`┌❑ *Anime menyusu * ❑
 │
 ├❒ ${prefix}anna
 ├❒ ${prefix}asuna_yuki 
@@ -1754,7 +1754,7 @@ const animemenu = (prefix) => {
 }
 
 const groupmenu = (prefix) => {
-	return`┌❑ *GROUP MENU* ❑
+	return`┌❑ *Qrup menyusu* ❑
 │
 ├❒ ${prefix}add 62***
 ├❒ ${prefix}kick _@user_
@@ -1823,7 +1823,7 @@ const groupmenu = (prefix) => {
 }
 
 const kerangmenu = (prefix) =>{
-	return`┌❑ *KERANG MENU* ❑
+	return`┌❑ *Qabıqlar menyusu* ❑
 │
 ├❒ ${prefix} ${prefix}bisakah [query]
 ├❒ ${prefix} ${prefix}apakah [query]
@@ -1832,7 +1832,7 @@ const kerangmenu = (prefix) =>{
 }
 
 const soundmenu = (prefix) =>{
-	return`┌❑ *SOUND MENU* ❑
+	return`┌❑ *Səs menyusu* ❑
 │
 ├❒ ${prefix}sound1
 ├❒ ${prefix}sound2
