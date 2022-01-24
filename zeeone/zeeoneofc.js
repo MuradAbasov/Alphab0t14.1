@@ -1,18 +1,18 @@
 const numberik = '•'
 const petik = '```'
 const help = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii, tekss)=> {
-	return`┌❏ *INDONESIA TIME*
+	return`┌❏ *İndoneziya vaxtı*
 ${numberik}➛ WIB : ${timuu}
 ${numberik}➛ WITA : ${wita}
 └❏ WIT : ${wit}
                           
-┌❏ *TODAY*
+┌❏ *Bu gün*
 ${numberik}➛${ucapannya2}
 ${numberik}➛Jam : ${timuu}
 ${numberik}➛Hari : ${thisDay}
 └❏ Tanggal : ${ini_tanggal}
 
-┌❏ *DEVICE*
+┌❏ *Qurğu*
 ${numberik}➛Whatsapp : ${wa_version}
 ${numberik}➛Merk HP : ${device_manufacturer}
 ${numberik}➛Versi HP : ${device_model}
@@ -21,14 +21,14 @@ ${numberik}➛RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}
 ${numberik}➛MCC : ${mcc}
 └❏ MNC : ${mnc}
 
-┌─❑「 *BOT INFO* 」
-${numberik}➛ Owner : ${ownername}
-${numberik}➛Mode : ${status}
-${numberik}➛Prefix : ${prefix}
-${numberik}➛Total Hit : ${hit_today.length}
-${numberik}➛Personal Chat : ${totalchat.length - ini_gcchat.lenght}
-${numberik}➛Total All Chat : ${totalchat.length}
-${numberik}➛Group Chat : ${ini_gcchat}
+┌─❑「 *Bot Haqqında* 」
+${numberik}➛ Qurucu : ${ownername}
+${numberik}➛Rejim : ${status}
+${numberik}➛Prefiks : ${prefix}
+${numberik}➛Ümumi vuruş : ${hit_today.length}
+${numberik}➛Şəxsi söhbət : ${totalchat.length - ini_gcchat.lenght}
+${numberik}➛Bütün söhbətlərin sayısı : ${totalchat.length}
+${numberik}➛Qrup söhbəti : ${ini_gcchat}
 ${numberik}➛Browser : Chrome
 ${numberik}➛Server : Baileys
 ${numberik}➛Version : 3.5.2
