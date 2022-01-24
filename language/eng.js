@@ -4,7 +4,7 @@
    *
 */
 exports.limit = (prefix) =>{
-	return` ⚠️ Your limit has run out, please send ${prefix}limit to check the limit`
+	return` ⚠️ ur limit has run out, please send ${prefix}limit to check the limit`
 }
 exports.limitg= (prefix) =>{
 	return` ⚠️ Your game limit has run out, please send ${prefix}limit to check the limit`
