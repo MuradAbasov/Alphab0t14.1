@@ -22,50 +22,50 @@ ${numberik}➛MCC : ${mcc}
 └❏ MNC : ${mnc}
 
 ┌─❑「 *Bot Haqqında* 」
-${numberik}➛ Qurucu : ${ownername}
+${numberik}➛ Sahib : ${ownername}
 ${numberik}➛Rejim : ${status}
 ${numberik}➛Prefiks : ${prefix}
 ${numberik}➛Ümumi vuruş : ${hit_today.length}
 ${numberik}➛Şəxsi söhbət : ${totalchat.length - ini_gcchat.lenght}
 ${numberik}➛Bütün söhbətlərin sayısı : ${totalchat.length}
 ${numberik}➛Qrup söhbəti : ${ini_gcchat}
-${numberik}➛Browser : Chrome
+${numberik}➛Brauzer : Chrome
 ${numberik}➛Server : Baileys
-${numberik}➛Version : 3.5.2
-${numberik}➛Speed : ${latensii.toFixed(4)} Second
+${numberik}➛Versiya : 3.5.2
+${numberik}➛Sürət : ${latensii.toFixed(4)} Second
 └❏ ${tekss}
 
 
-┌❑ *LIST MENU* ❑
+┌❑ *Siyahı menyusu* ❑
 │
-├❒ Allmenu 
-├❒ Convertmenu
-├❒ Asupanmenu
-├❒ Downloadmenu
-├❒ Funmenu
-├❒ Makermenu
-├❒ Othermenu
-├❒ Ownermenu
-├❒ Storagemenu
-├❒ Tagmenu
-├❒ Upmenu
+├❒ Bütün menyu 
+├❒ Konvertasiya menyusu 
+├❒ Menyu qəbulu
+├❒ Menyu yükləyin 
+├❒ Əyləncəli menyu 
+├❒ Maker menyusu 
+├❒ Digər menyu 
+├❒ Sahib menyusu
+├❒ Qeyd etmə menyusu
+├❒ Etiket menyusu
+├❒ Yuxarı menyu
 ├❒ Set_sticker_cmd
 ├❒ Gacha_cecan
 ├❒ Telegram_sticker
 └❒ Image_effect
 
-┌❑ *ABOUT* ❑
+┌❑ *Haqqında* ❑
 │
-├❒ Source
-├❒ ThanksTo
+├❒ Mənbə 
+├❒ Təşəkkürlər 
 ├❒ Group_support
-└❒ Ownerbot
+└❒ Sahib robotu
 
-❒ _Creator BotWea © 2K21_ ❒
+❒ _Yaradıcı Abasov/NihatFarz ©2022_ ❒
 `
 }
 const convert = (prefix) => {
-	return`┌❑ *CONVERT MENU* ❑
+	return`┌❑ *Konvertasiya menyusu* ❑
 │
 ├❒ ${prefix}tts query
 ├❒ ${prefix}toimg [reply img]
@@ -80,7 +80,7 @@ const convert = (prefix) => {
 `
 }
 const download = (prefix) => {
-	return`┌❑ *DOWNLOAD MENU* ❑
+	return`┌❑ *Menyu yükləyin* ❑
 │
 ├❒ ${prefix}ytsearch [query]
 ├❒ ${prefix}ytshorts [url]
@@ -117,14 +117,14 @@ const download = (prefix) => {
 `
 }
 const allmenu = (kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii)  => {
-	return`❏───「 *WHATSAPP BOT* 」───❏
+	return`❏───「 *WhatsApp Bot* 」───❏
                                
 ${ucapannya2}
-⏰ Jam : ${timuu} Server Time
-🎀 Hari : ${thisDay}
-🗓️ Tanggal : ${ini_tanggal}
+🕜 Saat : ${timuu} Server Time
+🌕 Gün : ${thisDay}
+📆 Tarix: ${ini_tanggal}
 
-*Convert Menu*
+*Konvertasiya menyusu*
 ${numberik} ${prefix}tts  [query]
 ${numberik} ${prefix}toimg  [reply stiker]
 ${numberik} ${prefix}tomp3 [reply video]
@@ -136,7 +136,7 @@ ${numberik} ${prefix}fast [reply vn]
 ${numberik} ${prefix}reverse [reply vn]
 ${numberik} ${prefix}tourl [reply foto/vid]
 
-*Download Menu* 
+*Menyu yükləyin* 
 ${numberik} ${prefix}ytsearch [query]
 ${numberik} ${prefix}ytshorts [url]
 ${numberik} ${prefix}igstalk [username]
@@ -169,7 +169,7 @@ ${numberik} ${prefix}lirik [query]
 ${numberik} ${prefix}komiku [query]
 ${numberik} ${prefix}anime _random_
 
- *Fun Menu*
+ *Əyləncəli menyu*
 ${numberik} ${prefix}start
 ${numberik} ${prefix}leave
 ${numberik} ${prefix}skip
@@ -213,7 +213,7 @@ ${numberik} ${prefix}jadibot
 ${numberik} ${prefix}stopjadibot
 ${numberik} ${prefix}listbot
 
- *Textpro Menu*
+ *Mətin Pro Menyu*
 ${numberik} ${prefix}halloween2 text|text2
 ${numberik} ${prefix}horror text|text2
 ${numberik} ${prefix}game8bit text|text2
@@ -395,7 +395,7 @@ ${numberik} ${prefix}metalb2 text
 ${numberik} ${prefix}metalg text
 ${numberik} ${prefix}metalg text
 
- *Photooxy Menu*
+ *Fotooksi menyu*
 ${numberik} ${prefix}captain_as text|text2
 ${numberik} ${prefix}smoke text|text2
 ${numberik} ${prefix}tiktok2 text|text2 
@@ -456,7 +456,7 @@ ${numberik} ${prefix}bevel text
 ${numberik} ${prefix}underflower text         
 ${numberik} ${prefix}underflower2 text
 
- *Maker Menu* 
+ *Maker menyu* 
 ${numberik} ${prefix}sticker
 ${numberik} ${prefix}smeme [text]
 ${numberik} ${prefix}memegen [atas|bawah]
@@ -480,7 +480,7 @@ ${numberik} ${prefix}ytgold [text]
 ${numberik} ${prefix}ytsilver [text]
 ${numberik} ${prefix}emoji 👼
  
- *Image Effect*
+ *Şəkil effecti*
 ${numberik} ${prefix}trigger
 ${numberik} ${prefix}gay
 ${numberik} ${prefix}glass
@@ -527,7 +527,7 @@ ${numberik} ${prefix}burn
 ${numberik} ${prefix}brazzers
 ${numberik} ${prefix}beautiful
 
- *Group Menu*
+ *Qrup menyusu*
 ${numberik} ${prefix}add 62***
 ${numberik} ${prefix}kick _@user_
 ${numberik} ${prefix}radd _reply pesan @user_
@@ -591,7 +591,7 @@ ${numberik} ${prefix}buyglimit
 ${numberik} ${prefix}awoo
 ${numberik} ${prefix}megumin
 
-*Random Sound*
+*Təsadüfi səs*
 ${numberik} ${prefix}sound1
 ${numberik} ${prefix}sound2
 ${numberik} ${prefix}sound3
@@ -663,7 +663,7 @@ ${numberik} ${prefix}sound68
 ${numberik} ${prefix}sound69
 ${numberik} ${prefix}sound70
 
- *Owner Menu*
+ *Sahib menyusu*
 ${numberik} ${prefix}setmenu location
 ${numberik} ${prefix}setmenu document
 ${numberik} ${prefix}setmenu list
@@ -708,7 +708,7 @@ ${numberik} x or > _code_
 ${numberik} $  _termux code_
 ${numberik} =>  _eval async_
 
- *Storage  Menu*
+ *Saxlama menyusu*
 ${numberik} ${prefix}addstik 
 ${numberik} ${prefix}addimg 
 ${numberik} ${prefix}addvid 
@@ -721,7 +721,7 @@ ${numberik} ${prefix}addrespon
 ${numberik} ${prefix}delrespon
 ${numberik} ${prefix}listrespon
 
- *Tag  Menu*
+ *Etiket menyusu*
 ${numberik} ${prefix}hidetag
 ${numberik} ${prefix}kontag
 ${numberik} ${prefix}sticktag
@@ -749,12 +749,12 @@ ${numberik} ${prefix}hebat
 ${numberik} ${prefix}sadboy 
 ${numberik} ${prefix}sadgirl  
 
- *Up Eswe*
+ *Yuxarı eswe*
 ${numberik} ${prefix}upswteks
 ${numberik} ${prefix}upswimage
 ${numberik} ${prefix}upswvideo
 
-*Kerang Ajaib*
+*Sehirli qabıqlar*
 ${numberik} ${prefix}bisakah [query]
 ${numberik} ${prefix}apakah [query]
 ${numberik} ${prefix}kapankah [query]
@@ -841,7 +841,7 @@ ${numberik} ${prefix}ngif
 ${numberik} ${prefix}cuddle
 ${numberik} ${prefix}zettai
 
- *Telegram Stiker*
+ *Telegram stiker*
 ${numberik} ${prefix}awoawo
 ${numberik} ${prefix}benedict
 ${numberik} ${prefix}chat
@@ -864,7 +864,7 @@ ${numberik} ${prefix}sponsbob
 ${numberik} ${prefix}kawan_sponsbob
 ${numberik} ${prefix}tyni
 
- *Cecan  Menu* 
+ *Skan menyusu* 
 ${numberik} ${prefix}china
 ${numberik} ${prefix}indonesia
 ${numberik} ${prefix}malaysia
@@ -877,7 +877,7 @@ ${numberik} ${prefix}jiso
 ${numberik} ${prefix}lisa
 ${numberik} ${prefix}rose
 
- *Quotes  Menu*
+ *Sitatlar menyusu*
 ${numberik} ${prefix}katailham  
 ${numberik} ${prefix}dare   
 ${numberik} ${prefix}truth  
@@ -885,7 +885,7 @@ ${numberik} ${prefix}katabijak_lucu
 ${numberik} ${prefix}katacaklontong  
 ${numberik} ${prefix}katadilan  
 
- *Cogan  Menu* 
+ *Cogan menyusu* 
 ${numberik} ${prefix}baekhyung  
 ${numberik} ${prefix}dohkyungsoo  
 ${numberik} ${prefix}huangzitao  
@@ -905,7 +905,7 @@ ${numberik} ${prefix}parkchanyeol
 ${numberik} ${prefix}suga  
 ${numberik} ${prefix}wuyifan
 
- *Asupan  Menu* 
+ *Menyu qəbulu* 
 ${numberik} ${prefix}rikagusriani 
 ${numberik} ${prefix}ukhty 
 ${numberik} ${prefix}santuy 
