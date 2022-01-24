@@ -4,10 +4,10 @@
    *
 */
 exports.limit = (prefix) =>{
-	return` ⚠️ Your limit has run out, please send ${prefix}limit to check the limit`
+	return` ⚠️ Limitiniz bitdi, göndərin ${prefix}limiti yoxlamaq üçün limit`
 }
 exports.limitg= (prefix) =>{
-	return` ⚠️ Your game limit has run out, please send ${prefix}limit to check the limit`
+	return` ⚠️ Oyun limitiniz bitdi, göndərin ${prefix}limiti yoxlamaq üçün limit`
 }
 exports.event = (prefix) =>{
 	return` ⚠️ The group event has not been activated, send the command ${prefix}event on to activate`
