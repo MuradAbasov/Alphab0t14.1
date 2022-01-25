@@ -91,77 +91,77 @@ exports.anlinOff = () => {
 	return `☑️ Antilink deaktiv edilib`
 	}
 exports.notregis = (prefix, sender) => {
-	return `Edir @${sender.split("@")[0]} siz verilənlər bazasında qeydiyyatdan keçməmisiniz, zəhmət olmasa yazın ${prefix}verify\n\nKamu juga bisa daftar dengan cara mengirimkan kode verifikasi dari web api\nhttps://api-alphabot.herokuapp.com/api/verification`
+	return `Edir @${sender.split("@")[0]} siz verilənlər bazasında qeydiyyatdan keçməmisiniz, zəhmət olmasa yazın ${prefix}verify\n\n\Siz həmçinin web api-dən doğrulama kodu göndərməklə qeydiyyatdan keçə bilərsiniz\nhttps://api-alphabot.herokuapp.com/api/verification`
 	}
 exports.udahregis = (pushname) => {
-	return `Hai ${pushname} kamu sudah terdaftar di database`
+	return `Edir ${pushname} siz artıq verilənlər bazasında qeydiyyatdan keçmisiniz`
 	}
 exports.enNum = () => {
- return `❎ Enter Numbers Correctly`
+ return `❌ Nömrələri düzgün daxil edin`
  }
 exports.adminGc = () => {
- return `Because you are the admin so the bot will not log you out`
+ return `Siz admin olduğunuz üçün bot sizi sistemdən çıxarmayacaq`
  }
  exports.izinDt = () => {
- return `Permission accepted`
+ return `İcazə qəbul edildi`
  }
  exports.anjawaOn = (command) => {
-	return `✅ ${command} Activated`
+	return `☑️ ${command} Aktiv edildi`
 	}
 exports.anjawaOff = (command) => {
-	return `✅ ${command} Disabled`
+	return `☑️ ${command} Deaktiv edildi`
 	}
 exports.anjawaUdhOn = (command) => {
-	return `✅ ${command} been active before`
+	return `☑️ ${command} öncədən aktiv idi`
 	}
 exports.anjawaUdhOon = (command) => {
-	return `Select on to activate, off to disable`
+	return `Aktivləşdirmək üçün aktiv, söndürmək üçün isə off seçin`
 	}
 exports.onORoff = (command) => {
-	return `Select on to activate, off to disable`
+	return `Aktivləşdirmək üçün aktiv, söndürmək üçün isə off seçin`
 	}
 exports.gcOpen = (command) => {
-	return `✅ ${command} Successfully opened group`
+	return `☑️ ${command} Qrup uğurla açıldı`
 	}
 exports.gcClose = (command) => {
-	return `✅ ${command} Successfully Close group `
+	return `☑️ ${command} Qrup uğurla bağlandı`
 	}
 exports.nsfwmo= () => {
-	return `The nsfw feature has not been activated, contact the bot owner to activate it`
+	return `Nsfw funksiyası aktivləşdirilməyib, onu aktivləşdirmək üçün bot sahibi ilə əlaqə saxlayın`
 	}
 exports.erorCode = () => {
- return `Kode yang anda masukkan salah silahkan cek kembali\nhttps://api-alphabot.herokuapp.com/api/verification`
+ return `Daxil etdiyiniz kod səhvdir, yenidən yoxlayın\nhttps://api-alphabot.herokuapp.com/api/verification`
  }
  exports.callOwner = () => {
- return `Contact the owner to use this feature`
+ return `Bu funksiyadan istifadə etmək üçün sahib ilə əlaqə saxlayın `
  }
  //vote
 exports.noSesiVote = () => {
- 	return`No voting session`
+ 	return`Səsvermə sessiyası yoxdur`
  }
 exports.suksesDelVot = () => {
-	return`Successfully Deleting Voting Session In This Group`
+	return`Bu qrupda səsvermə sessiyası uğurla silinir`
 	}
 exports.adaVoting = () => {
-	return`Voting Session In Progress In This Group`
+	return`Bu qrupda səsvermə sessiyası davam edir`
 	}
 exports.caraVoting = (prefix, command) => {
-    return`*Voting*\n\n${prefix + command} @tag target | reason  | 1 (1 = 1 Minute)`
+    return`*Səsvermə*\n\n${prefix + command} @etiket hədəf | səbəb  | 1 (1 = 1 Dəqiqə)`
     }
 exports.caraVot = () => {
- 	return`Enter number in line 3\nContoh: 1-9999\n1 = 1 Minute`
+ 	return`Nömrəni sıraya daxil edin 3\nMisal: 1-9999\n1 = 1 Dəqiqə`
     }
 //ttt
 exports.noSesiTtt = () =>{
-	return`There is no tictactoe session in this group`
+	return`Bu qrupda ticactoe seansı yoxdur`
 	}
 exports.suksesDelTtt = () =>{
-	return`Successfully deleted tictactoe session in this group`
+	return`Bu qrupda tictactoe sessiyası uğurla silindi`
 	}
 //on & off
 exports.ownerOff = () =>{
-	return`My owner has been off`
+	return`Sahibim getdi`
 	}
 exports.ownerOn = () =>{
-	return`My owner is back on`
+	return`Sahibim geri döndü`
 	}
