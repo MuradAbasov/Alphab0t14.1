@@ -4,94 +4,94 @@
    *
 */
 exports.limit = (prefix) =>{
-	return` ❗ ur limit has run out, please send ${prefix}limit to check the limit`
+	return` ❗ Limitiniz bitdi, göndərin ${prefix}limiti yoxlamaq üçün limit`
 }
 exports.limitg= (prefix) =>{
-	return` ⚠️ Your game limit has run out, please send ${prefix}limit to check the limit`
+	return` ❗ Oyun limitiniz bitdi, göndərin ${prefix}limiti yoxlamaq üçün limit`
 }
 exports.event = (prefix) =>{
-	return` ⚠️ The group event has not been activated, send the command ${prefix}event on to activate`
+	return` ❗Qrup hadisəsi aktivləşdirilməyib, əmri göndərin ${prefix}aktivləşdirmək üçün hadisə`
 }
 exports.wait = () => {
-	return `⏳ Wait a moment...`
+	return `🫂 Bir az gözlə...`
 	}
 exports.success = () => {
-	return `✅ Finished ...`
+	return `Bitdi 🤓`
 	}
 exports.successBc = () => {
-	return `✅ Broadcast Success`
+	return `Yayım Uğurlu ✅`
 	}
 exports.wrongFormat = () => {
-	return `❎ The format is wrong, try checking again in the menu`
+	return `❌ Format səhvdir, menyuda yenidən yoxlamağa cəhd edin`
 	}
 exports.erorStik = () => {
-	return `❎ That's not a sticker`
+	return `❌ Bu stiker deyil`
 	}
 exports.tagStik = () => {
-	return `❎ Reply/tag the sticker`
+	return `❌ Stikeri cavablandırın/etiket edin`
 	}
 exports.erorLink = () => {
-	return `❎ Invalid link`
+	return `❌ Etibarsız keçid`
 	}
 exports.onlygc = () => {
-	return `❎ This feature is group-specific`
+	return `❌ Bu xüsusiyyət qrupa xasdır`
 	}
 exports.onlyOwner = () => {
-	return `❎ Special Owner Bot`
+	return `❌ Xüsusi Sahib Botu`
 	}
 exports.benned = () => {
-	return `❎ Sorry, your number has been blocked`
+	return `❌ Üzr istəyirik, nömrəniz bloklanıb`
 	}
 exports.onlygcAdmin = () => {
-	return `❎ Group admin only`
+	return `❌ Yalnız qrup admini`
 	}
 exports.cariCecan = () => {
-	return `⏳ Mencari cecan`
+	return `Axtarmağa çalışıram 🫂`
 	}
 exports.cariCogan = () => {
-	return `⏳ Mencari cogan`
+	return `Şüar axtarır 🫂`
 	}
 exports.pesanBot = () => {
-	return `❎ Reply to the bot message`
+	return `❌ Botun mesajına cavab verin`
 	}
 exports.replyFoto = () => {
-	return `❎ Reply photo`
+	return `❌ Fotoya cavab verin`
 	}
 exports.tagUser = () => {
-	return `❎ Tags @user`
+	return `❌ Etiket @üzv`
 	}
 exports.noReply = () => {
-	return `❎ The message you replied to did not contain a reply`
+	return `❌ Cavab verdiyiniz mesajda cavab yoxdur`
 	}
 exports.changeNmGc = () => {
-	return `✅ Successful Change of Group Name`
+	return `☑️ Qrup adının müvəffəqiyyətlə dəyişdirilməsi`
 	}
 exports.changeDeskGc = () => {
-	return `✅ Successfully Changed Group Desk`
+	return `☑️ qrup masası uğurla dəyişdirildi`
 	}
 exports.spam = (prefix, command) => {
-	return `❎ Example ${prefix + command} text|amount`
+	return `❌ Misal ${prefix + command} Mətin|Məbləğ`
 	}
 exports.tahta = (prefix, command) => {
-	return `❎ Example ${prefix + command} zeeone|ofc`
+	return `❌ Misal ${prefix + command} Abasov|Farz`
 	}
 exports.noteks = (prefix, command) => {
-	return `❎ Example ${prefix + command} zeeone`
+	return `❌ Misal ${prefix + command} Abasov`
 	}
 exports.botNotAdm = () => {
-	return `Make bot as admin to use this command`
+	return `Bu əmrdən istifadə etmək üçün botu admin edin❗`
 	}
 exports.tryAgain = () => {
-	return `❎  Failed, try again ^_^`
+	return `❌ Yenidən cəhd edin, uğursuz oldu :(`
 	}
 exports.anlinOn = () => {
-	return `✅ Antilink Activated`
+	return `☑️ Antilink aktivləşdirildi `
 	}
 exports.anlinOff = () => {
-	return `✅ Antilink Disabled`
+	return `☑️ Antilink deaktiv edilib`
 	}
 exports.notregis = (prefix, sender) => {
-	return `Hai @${sender.split("@")[0]} kamu belum terdaftar di database, silahkan ketik ${prefix}verify\n\nKamu juga bisa daftar dengan cara mengirimkan kode verifikasi dari web api\nhttps://api-alphabot.herokuapp.com/api/verification`
+	return `Edir @${sender.split("@")[0]} siz verilənlər bazasında qeydiyyatdan keçməmisiniz, zəhmət olmasa yazın ${prefix}verify\n\nKamu juga bisa daftar dengan cara mengirimkan kode verifikasi dari web api\nhttps://api-alphabot.herokuapp.com/api/verification`
 	}
 exports.udahregis = (pushname) => {
 	return `Hai ${pushname} kamu sudah terdaftar di database`
